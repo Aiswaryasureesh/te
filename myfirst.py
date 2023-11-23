@@ -1,0 +1,8 @@
+f=open("text.txt","w")
+f.write("my first file\n")
+f.write("Aiswarya\n\n")
+f.write("ilahia college of engineering and technology\n")
+f=open("text.txt",'r')
+str=f.read()
+print("read strings:",str)
+f.close()
