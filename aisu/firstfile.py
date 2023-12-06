@@ -1,0 +1,8 @@
+f=open("first.txt","w")
+f.write("my second file\n")
+f.write("india\n\n")
+f.write("kerala\n")
+f=open("first.txt",'r')
+str=f.read()
+print("read strings:",str)
+f.close()

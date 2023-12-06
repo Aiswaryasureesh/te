@@ -1,0 +1,63 @@
+     <html>  
+    <head>   
+    <title></title>  
+    </head>  
+    <body bgcolor="powderblue"> 
+    <center><h1 style="color:black;">ILAHIA COLLEGE OF ENGINEERING & TECHNOLOGY</h1></center> 
+    <center><h2 style="color:black;">REGISTRATION FORM</h2></center>  
+    <form>
+    <img align="right" src="images.jpeg" height="150" width="150"/> 
+    <label> Firstname: </label>         
+    <input type="text" name="firstname" size="15"/> <br> <br>  
+    <label> Middlename: </label>     
+    <input type="text" name="middlename" size="15"/> <br> <br>  
+    <label> Lastname: </label>         
+    <input type="text" name="lastname" size="15"/> <br> <br>  
+    <label> Father's Name: </label>         
+    <input type="text" name="father'sname" size="15"/> <br> <br>
+    <label> Mother's Name: </label>         
+    <input type="text" name="Mother'sname" size="15"/> <br> <br>   
+    <label> Date of Birth: </label>         
+    <input type="text" name="dateof birth" size="15"/> <br> <br>   
+    Course :  
+    </label>   
+    <select>  
+    <option value="Course">Course</option>  
+    <option value="B.Tech">B.Tech</option>  
+    <option value="MBA">MBA</option>  
+    <option value="MCA">MCA</option>  
+    <option value="M.Tech">M.Tech</option>  
+    </select>  
+    <br>  
+    <br>  
+    <label>   
+    Gender :  
+    </label><br>  
+    <input type="radio" name="male"/> Male <br>  
+    <input type="radio" name="female"/> Female <br>  
+    <input type="radio" name="other"/> Other  
+    <br>  
+    <br>    
+    Phone :  
+ 
+    <input type="tel" id="phone" name="phone" pattern=[0-9]{3}-[0-9]{2}-[0-9]{3}"> <br> <br>  
+    Address  
+    <br>  
+    <textarea cols="80" rows="5" value="address">  
+    </textarea>  
+    <br> <br>  
+    Email:  
+    <input type="text" id="txtEmail" onkeyup="ValidateEmail();"/> 
+    <span id="lblError" style="color:red"></span><br>    
+    <br> 
+    
+    Password:  
+    <input type="Password" id="pass" name="pass"> <br> 
+    
+    <input type="button" onclick="validateForm()" value="Submit"/> 
+     
+    </form> 
+    <script src="./mail.js"></script> 
+    
+    </body>  
+    </html>  
