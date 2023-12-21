@@ -16,16 +16,4 @@ printf("Enter the number of vertices: ");
 scanf("%d", &numVertices);
 int graph[MAX_VERTICES][MAX_VERTICES];
 printf("Enter the adjacency matrix:\n");
-for (int i = 0; i < numVertices; ++i) {
-for (int j = 0; j < numVertices; ++j) {
-scanf("%d", &graph[i][j]);
-}
-}
-bool visited[MAX_VERTICES];
-for (int i = 0; i < numVertices; ++i) {
-visited[i] = false;
-}
-printf("DFS Traversal: ");
-dfs(graph, 0, visited, numVertices);
-return 0;
-}
+for(int i=0;i<numVertices;++i
